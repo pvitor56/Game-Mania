@@ -1,0 +1,43 @@
+/* Fonte*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+body {
+
+    font-family: Yanone Kaffeesatz;
+    font-weight: 450;
+
+}
+
+/* Menu e SubMenu*/
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+nav {
+
+    background-color: blue;
+    height: 30px;
+
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 8px;
+
+}
+
+nav ul a {
+
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}

@@ -5,7 +5,7 @@
 body {
 
     font-family: Yanone Kaffeesatz;
-    font-weight: 450;
+    font-size: 18px;
 
 }
 
@@ -31,7 +31,7 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 8px;
+    padding-top: 7.5px;
 
 }
 

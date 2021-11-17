@@ -5,7 +5,7 @@
 body {
 
     font-family: Yanone Kaffeesatz;
-    font-weight: 450;
+    font-size: 18px;
 
 }
 
@@ -40,4 +40,107 @@ nav ul a {
     color: white;
     text-decoration: none;
     list-style-type: none;
+}
+
+/* Sessão - Nossas Máquinas */
+
+h2 {
+
+    text-align: center;
+
+}
+
+#Maquinas1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Maquinas1 .item {
+
+    margin: 50px;
+}
+
+#Maquinas2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Maquinas2 .item {
+
+    margin: 120px;
+}
+
+#Maquinas3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Maquinas3 .item {
+
+    margin: 50px;
+}
+
+.btn-comprar {
+
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+
+}
+
+.btn-comprar:hover {
+
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+/* Rodapé */
+
+
+footer h4 {
+
+    color: red;
+    text-align: center;
+
+}
+
+#rodape {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(62, 62, 66);
+
+}
+
+footer ul {
+
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+footer ul a {
+
+
+    color: white;
+    text-decoration: none;
+
 }

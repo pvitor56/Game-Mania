@@ -5,7 +5,7 @@
 body {
 
     font-family: Yanone Kaffeesatz;
-    font-weight: 450;
+    font-size: 18px;
 
 }
 
@@ -40,4 +40,43 @@ nav ul a {
     color: white;
     text-decoration: none;
     list-style-type: none;
+}
+
+
+/* Site em Manutenção */
+
+
+/* Rodapé */
+
+
+footer h4 {
+
+    color: red;
+    text-align: center;
+
+}
+
+#rodape {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(62, 62, 66);
+
+}
+
+footer ul {
+
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+footer ul a {
+
+
+    color: white;
+    text-decoration: none;
+
 }

@@ -5,7 +5,7 @@
 body {
 
     font-family: Yanone Kaffeesatz;
-    font-weight: 450;
+    font-size: 18px;
 
 }
 
@@ -41,5 +41,125 @@ nav ul a {
     text-decoration: none;
     list-style-type: none;
 
+}
+
+/* Sessão - Outros Produtos */
+
+h2 {
+
+    text-align: center;
+
+}
+
+#Outros1 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Outros1 .item {
+
+    margin: 100px;
+
+}
+
+#Outros2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Outros2 .item {
+
+    margin: 100px;
+
+}
+
+#Outros3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Outros3 .item {
+
+    margin: 100px;
+
+}
+
+#Outros4 {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#Outros4 .item {
+
+    margin: 100px;
+    
+}
+
+.btn-comprar {
+
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+
+}
+
+.btn-comprar:hover {
+
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+/* Rodapé */
+
+
+footer h4 {
+
+    color: red;
+    text-align: center;
+
+}
+
+#rodape {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(62, 62, 66);
+
+}
+
+footer ul {
+
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+footer ul a {
+
+
+    color: white;
+    text-decoration: none;
 
 }
